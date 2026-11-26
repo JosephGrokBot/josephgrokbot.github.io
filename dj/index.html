@@ -21,12 +21,13 @@ code{font-size:12px;color:var(--dim);word-break:break-all}.small{font-size:13px}
 <li>Open the downloaded file, tap <b>Install</b>, then <b>Open</b>.</li>
 <li>In the app, go to <b>Library</b> and tap <b>Scan device</b> (or <b>Add folder</b>). Wait for the tempo and key to appear, then open <b>Automix</b> and tap <b>Start</b>.</li>
 </ol>
-<p><a class="btn" href="https://josephgrokbot.github.io/app/dj-automix.apk?v=0.2.1">Download the app</a></p>
-<p class="small">Version 0.2.1 · 6.2 MB · Android 8.0 or newer<br>SHA-256 <code>9b686c2539f0a7be18128882e8446aae94629fd597946a5ade2ac6946659e3e4</code></p></section>
+<p><a class="btn" href="https://josephgrokbot.github.io/app/dj-automix.apk?v=0.2.2">Download the app</a></p>
+<p class="small">Version 0.2.2 · 6.2 MB · Android 8.0 or newer<br>SHA-256 <code>c1e9f0022620bd678c4775d60784147280eee9d3191dec52d165360ca9e61e52</code></p></section>
 <section><h2>What's in this version</h2><ul>
 <li>Track analysis: tempo to 0.01 BPM, key (Camelot), beat grid, sections, energy, loudness. Saved, so it only happens once per track.</li>
 <li>Two decks with colour waveforms, sync, tempo, pitch bend, cue, 3-band EQ (DJM-style or full-kill), filter, auto-gain, crossfader.</li>
 <li>Automix: harmonic order, phrase-aligned 8/16/32-bar blends, bass swap, filter fade, tempo glide. Shows the next transition before it happens.</li>
+<li><b>0.2.2:</b> Automix blends no longer distort the incoming track. The tempo-match used to go through a faulty pitch-lock stretcher; blends now use the same clean speed change as 0.1.3, unless you turn on “Keylock during Automix blends” in Settings. Manual KEYLOCK on each deck still works, and the stretcher itself is rewritten.</li>
 <li><b>0.2.1:</b> Loading is more reliable: the app now decodes MP3 and WAV from the real file path when it can, so a deck should not sit on “Loading…” after a slow copy. The library tabs stay in place while tracks are analyzing.</li>
 <li><b>0.2.0:</b> Keylock keeps the musical pitch while tempo changes (on by default, including Automix glides). Eight coloured hot-cue pads per deck, saved with the track. Loops from 1/32 to 8 beats, plus loop in/out, halve and double. Quantize snaps cues, loops and play to the beat grid. Slip mode keeps a silent playhead running so you can drop back in on time. You can nudge the grid, tweak BPM by 0.01, and set the downbeat — those edits are saved and used by sync and Automix. Effects: filter, delay, echo, flanger, phaser, beat roll, and a light reverb, with beat-synced times and an XY pad. Headphone cue / split (master in one ear, cue in the other) and a cue/master mix knob. Record the master mix to a WAV or M4A file under Music/DJ Automix, then play or share it. The centre snap on the crossfader is still there; the vibration tick is gone, because it did not work on the phone and was not needed.</li>
 <li>0.1.3: Clear library (files stay on the phone; adding them again is instant). Live drag-to-reorder in the Automix queue. Crossfader snaps to a centre sweet spot; double-tap also resets it.</li>
